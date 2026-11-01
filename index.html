@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Basic Structure of Computers – Unit IV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <b>🖥️ CompStructure</b>
+  <div class="links" id="links"></div>
+  <input id="q" type="text" placeholder="Search topics…" aria-label="Search topics">
+  <div id="res"></div>
+  <button id="theme" aria-label="Toggle light or dark mode">🌓</button>
+  <button id="menu" aria-label="Menu">☰</button>
+</nav>
+<header class="hero" id="home">
+  <div class="chip"><svg viewBox="0 0 100 100">
+    <g class="pin"><path d="M20 5v12M35 5v12M50 5v12M65 5v12M80 5v12M20 83v12M35 83v12M50 83v12M65 83v12M80 83v12M5 20h12M5 35h12M5 50h12M5 65h12M5 80h12M83 20h12M83 35h12M83 50h12M83 65h12M83 80h12"/></g>
+    <rect x="16" y="16" width="68" height="68" rx="8" fill="#171f5a" stroke="#8b5cf6" stroke-width="3"/>
+    <rect class="pulse" x="32" y="32" width="36" height="36" rx="5" fill="#8b5cf6"/>
+    <text x="50" y="55" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">CPU</text></svg></div>
+  <h1>Basic Structure of Computers</h1>
+  <p>Unit IV – Computer Fundamentals. Beginner-friendly notes, live diagrams, calculators and a quiz for engineering students.</p>
+  <button class="pri" onclick="document.getElementById('s1').scrollIntoView()">Start learning</button>
+  <div class="prog"><i id="bar"></i></div>
+  <small id="ptxt">0 of 10 topics completed</small>
+</header>
+<main id="main"></main>
+<footer>Made for engineering students · <button id="dl">⬇ Download study notes</button></footer>
+<script src="script.js"></script>
+</body>
+</html>
